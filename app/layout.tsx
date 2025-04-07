@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { Cursor } from "@/components/cursor"
 import { Footer } from "@/components/footer"
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -32,6 +33,7 @@ export default function RootLayout({
           <div className="flex min-h-screen flex-col">
             {children}
             <Analytics />
+            <SpeedInsights />
             <Footer />
           </div>
         </ThemeProvider>

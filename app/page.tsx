@@ -6,6 +6,7 @@ import { About } from "@/components/about"
 import { Contact } from "@/components/contact"
 import { ScrollProgress } from "@/components/scroll-progress"
 
+
 export default function Home() {
   return (
     <>
