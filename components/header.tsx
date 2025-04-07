@@ -193,7 +193,7 @@ export function Header() {
 
             <div className="relative h-10 w-10 overflow-hidden rounded-full border border-neutral-800">
               <Image
-                src="/profil.jpg"
+                src="/profil.JPG"
                 alt="Profile"
                 width={40}
                 height={40}
