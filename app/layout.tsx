@@ -4,6 +4,7 @@ import { Space_Grotesk } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Cursor } from "@/components/cursor"
 import { Footer } from "@/components/footer"
+import { Analytics } from "@vercel/analytics/react"
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({
           <Cursor />
           <div className="flex min-h-screen flex-col">
             {children}
+            <Analytics />
             <Footer />
           </div>
         </ThemeProvider>
