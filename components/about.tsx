@@ -2,7 +2,7 @@
 
 import { useRef } from "react"
 import { motion, useInView } from "framer-motion"
-import Image from "next/image"
+import Image from 'next/image'
 
 
 export function About() {
@@ -89,7 +89,7 @@ export function About() {
             className="relative aspect-[3/4] overflow-hidden"
           >
             <Image
-              src="/profil.jpg"
+              src="/profil.JPG"
               alt="Portrait"
               width={600}
               height={800}
