@@ -14,7 +14,6 @@ export function Header() {
   const { theme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
 
-  // Pour éviter les erreurs d'hydratation
   useEffect(() => {
     setMounted(true)
   }, [])
