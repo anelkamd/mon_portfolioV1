@@ -6,6 +6,7 @@ import Image from "next/image"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { Menu, X, Sun, Moon, Github, Linkedin, Twitter, Mail } from "lucide-react"
 import { useTheme } from "next-themes"
+import my_profil from "/profil.jpg"
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -193,7 +194,7 @@ export function Header() {
 
             <div className="relative h-10 w-10 overflow-hidden rounded-full border border-neutral-800">
               <Image
-                src="/profil.jpg"
+                src={my_profil}
                 alt="Profile"
                 width={40}
                 height={40}
