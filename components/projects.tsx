@@ -16,11 +16,11 @@ export const projects = [
     description: "Application de Gestion des Événements d’Entreprise",
     fullDescription:
       "Application de Gestion des Événements d’Entreprise (Organisation des séminaires, conférences, et suivi des participants)",
-    image: "/kivuevent1.png",
+    image: "/kivuevent1.PNG",
     images: [
-      "/kivuevent6.png",
-      "/kivuevent2.png",
-      "/kivuevent4.png",
+      "/kivuevent6.PNG",
+      "/kivuevent2.PNG",
+      "/kivuevent4.PNG",
     ],
     year: "2024",
     client: "Public",
