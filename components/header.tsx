@@ -124,19 +124,19 @@ export function Header() {
 
           <div className="flex items-center space-x-6">
             <div className="hidden md:flex space-x-6 text-sm">
-              <Link href="#services" className="text-neutral-400 hover:text-white transition-colors relative group">
+              <Link href="#services" className="text-neutral-400 hover:text-black transition-colors relative group">
                 SERVICES
                 <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-white group-hover:w-full transition-all duration-300"></span>
               </Link>
-              <Link href="#projects" className="text-neutral-400 hover:text-white transition-colors relative group">
+              <Link href="#projects" className="text-neutral-400 hover:text-black transition-colors relative group">
                 PROJETS
                 <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-white group-hover:w-full transition-all duration-300"></span>
               </Link>
-              <Link href="#about" className="text-neutral-400 hover:text-white transition-colors relative group">
+              <Link href="#about" className="text-neutral-400 hover:text-black transition-colors relative group">
                 À PROPOS
                 <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-white group-hover:w-full transition-all duration-300"></span>
               </Link>
-              <Link href="#contact" className="text-neutral-400 hover:text-white transition-colors relative group">
+              <Link href="#contact" className="text-neutral-400 hover:text-black transition-colors relative group">
                 CONTACT
                 <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-white group-hover:w-full transition-all duration-300"></span>
               </Link>
@@ -149,7 +149,7 @@ export function Header() {
                 rel="noopener noreferrer"
                 variants={itemVariants}
                 whileHover={{ scale: 1.1, y: -2 }}
-                className="text-neutral-400 hover:text-white transition-colors"
+                className="text-neutral-400 hover:text-black transition-colors"
               >
                 <Github size={18} />
                 <span className="sr-only">GitHub</span>
@@ -160,7 +160,7 @@ export function Header() {
                 rel="noopener noreferrer"
                 variants={itemVariants}
                 whileHover={{ scale: 1.1, y: -2 }}
-                className="text-neutral-400 hover:text-white transition-colors"
+                className="text-neutral-400 hover:text-black transition-colors"
               >
                 <Linkedin size={18} />
                 <span className="sr-only">LinkedIn</span>
@@ -171,7 +171,7 @@ export function Header() {
                 rel="noopener noreferrer"
                 variants={itemVariants}
                 whileHover={{ scale: 1.1, y: -2 }}
-                className="text-neutral-400 hover:text-white transition-colors"
+                className="text-neutral-400 hover:text-black transition-colors"
               >
                 <Twitter size={18} />
                 <span className="sr-only">Twitter</span>
@@ -183,7 +183,7 @@ export function Header() {
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
                 whileHover={{ scale: 1.1, rotate: 15 }}
                 whileTap={{ scale: 0.9 }}
-                className="text-neutral-400 hover:text-white transition-colors"
+                className="text-neutral-400 hover:text-black transition-colors"
                 aria-label={theme === "dark" ? "Passer au mode clair" : "Passer au mode sombre"}
               >
                 {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
@@ -202,7 +202,7 @@ export function Header() {
             </div>
 
             <button
-              className="md:hidden text-neutral-400 hover:text-white"
+              className="md:hidden text-neutral-400 hover:text-black"
               onClick={() => setIsOpen(!isOpen)}
               aria-label={isOpen ? "Fermer le menu" : "Ouvrir le menu"}
             >
