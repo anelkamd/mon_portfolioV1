@@ -87,7 +87,7 @@ export function Projects() {
     <section ref={ref} id="projects" className="py-20">
       <motion.div variants={titleVariants} initial="hidden" animate={isInView ? "visible" : "hidden"} className="mb-16">
         <h2 className="text-4xl md:text-5xl font-bold tracking-tighter">
-          SELECTED WORKS / <span className="text-neutral-500 text-xl align-super">(5)</span>
+          SELECTED WORKS / <span className="text-neutral-500 text-xl align-super">(3)</span>
         </h2>
       </motion.div>
 
